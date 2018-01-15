@@ -1,0 +1,30 @@
+warning: never claim + accept labels requires -a flag to fully verify
+(Spin Version 6.4.7 -- 19 August 2017)
+	+ Partial Order Reduction
+Full statespace search for:
+	never claim         	+ (p1)
+	assertion violations	+ (if within scope of claim)
+	cycle checks       	- (disabled by -DSAFETY)
+	invalid end states	- (disabled by never claim)
+State-vector 236 byte, depth reached 248, ••• errors: 0 •••
+    11937 states, stored
+        0 states, matched
+    11937 transitions (= stored+matched)
+     2572 atomic steps
+hash conflicts:         0 (resolved)
+Stats on memory usage (in Megabytes):
+    3.005	equivalent memory usage for states (stored*(State-vector + overhead))
+    2.531	actual memory usage for states (compression: 84.20%)
+         	state-vector as stored = 194 byte + 28 byte overhead
+  128.000	memory used for hash table (-w24)
+    0.107	memory used for DFS stack (-m2000)
+  130.548	total actual memory usage
+unreached in proctype nnode
+	(0 of 47 states)
+unreached in init
+	(0 of 33 states)
+unreached in claim p1
+	_spin_nvr.tmp:6, state 6, "-end-"
+	(1 of 6 states)
+pan: elapsed time 0.03 seconds
+pan: rate    397900 states/second

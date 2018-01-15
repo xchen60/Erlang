@@ -1,0 +1,12 @@
+thomas@ubuntu:~/Desktop/hw5/Q1$ spin CR_LEA.pml 
+                  MSC: 3
+              MSC: 2
+                          MSC: 5
+          MSC: 1
+                      MSC: 4
+          MSC: LOST
+              MSC: LOST
+                  MSC: LOST
+                      MSC: LOST
+                          MSC: LEADER
+6 processes created
